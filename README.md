@@ -76,18 +76,40 @@ You can test and play the games and applications here:
 
 ### Calculator
 
+![alt text](https://raw.githubusercontent.com/Michdo93/pepper-web-games/main/documentation/calculator.jpg)
+
 ### Digital Clock
+
+![alt text](https://raw.githubusercontent.com/Michdo93/pepper-web-games/main/documentation/clock.jpg)
 
 ### Connect Four!
 
+![alt text](https://raw.githubusercontent.com/Michdo93/pepper-web-games/main/documentation/connectfour.jpg)
+
 ### Hangman
+
+![alt text](https://raw.githubusercontent.com/Michdo93/pepper-web-games/main/documentation/hangman.jpg)
 
 ### Memory
 
+![alt text]([http://url/to/img.png](https://raw.githubusercontent.com/Michdo93/pepper-web-games/main/documentation/memory.jpg))
+
 ### Number Guessing
+
+![alt text](https://raw.githubusercontent.com/Michdo93/pepper-web-games/main/documentation/numberguessing.jpg)
 
 ### Quiz
 
+![alt text](https://raw.githubusercontent.com/Michdo93/pepper-web-games/main/documentation/quiz.jpg)
+
+### Rock Paper Scissors
+
+![alt text](https://raw.githubusercontent.com/Michdo93/pepper-web-games/main/documentation/rockpaperscissors.jpg)
+
 ### TicTacToe
 
+![alt text](https://raw.githubusercontent.com/Michdo93/pepper-web-games/main/documentation/tictactoe.jpg)
+
 ### Word Puzzle
+
+![alt text](https://raw.githubusercontent.com/Michdo93/pepper-web-games/main/documentation/wordpuzzle.jpg)
