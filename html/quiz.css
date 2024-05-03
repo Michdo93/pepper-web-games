@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    font-size: 45px; /* 2,5x größere Schriftgröße */
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1, #nextButton {
+    font-size: 30px;
+}
+
+.options-grid {
+    margin-bottom: 20px;
+}
+
+.option {
+    font-size: 2.5vw; /* Schriftgröße als Prozentsatz der Breite der options-Box */
+    width: 45%; /* Gleiches Breitenattribut für alle Antwortmöglichkeiten */
+    height: 200px; /* Festlegen einer festen Höhe für alle Antwortmöglichkeiten */
+    padding: 20px 0; /* Vertikales Padding für die Antwortmöglichkeiten anpassen */
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    display: inline-block; /* Antwortmöglichkeiten als Inline-Elemente anzeigen */
+    vertical-align: middle; /* Vertikal zentrieren des Textes */
+    overflow: hidden; /* Überlaufenden Text ausblenden */
+    text-overflow: ellipsis; /* Text mit Auslassungszeichen (...) anzeigen, wenn er nicht in die Box passt */
+    white-space: normal; /* Text umbrechen, wenn er nicht in die Box passt */
+}
+
+button {
+    font-size: 80px; /* Schriftgröße für den Nächste-Frage-Button */
+    padding: 20px 40px; /* Größeres Padding für den Nächste-Frage-Button */
+    cursor: pointer;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #45a049;
+}

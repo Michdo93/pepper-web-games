@@ -1,0 +1,62 @@
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+#display {
+    width: 560px; /* Verdoppeln der Breite für Tablet */
+    height: 120px; /* Verdoppeln der Höhe für Tablet */
+    font-size: 48px; /* Verdoppeln der Schriftgröße für Tablet */
+    padding: 20px; /* Verdoppeln des Padding für Tablet */
+    margin-bottom: 20px; /* Verdoppeln des Margin-Bottom für Tablet */
+    text-align: right;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+button {
+    width: 130px; /* Halbieren der Breite für Tablet */
+    height: 100px; /* Halbieren der Höhe für Tablet */
+    font-size: 36px; /* Halbieren der Schriftgröße für Tablet */
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ccc;
+}
+
+@media screen and (max-width: 768px) {
+    .calculator {
+        margin-top: 50px; /* Verringern des oberen Abstands für Tablet */
+    }
+
+    #display {
+        width: 280px; /* Ursprüngliche Breite für Mobilgeräte */
+        height: 60px; /* Ursprüngliche Höhe für Mobilgeräte */
+        font-size: 24px; /* Ursprüngliche Schriftgröße für Mobilgeräte */
+        padding: 10px; /* Ursprüngliches Padding für Mobilgeräte */
+        margin-bottom: 10px; /* Ursprünglicher Margin-Bottom für Mobilgeräte */
+    }
+
+    button {
+        width: 70px; /* Ursprüngliche Breite für Mobilgeräte */
+        height: 50px; /* Ursprüngliche Höhe für Mobilgeräte */
+        font-size: 20px; /* Ursprüngliche Schriftgröße für Mobilgeräte */
+    }
+}

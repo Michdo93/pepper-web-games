@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200vh; /* Verdoppelung der Höhe */
+    margin: 0;
+    font-size: 32px;
+}
+
+#word-puzzle-container {
+    text-align: center;
+    margin-top: -1400px; /* Reduzierung des Abstands nach oben */
+}
+
+#word-display {
+    font-size: 96px; /* Verdoppelung der Schriftgröße */
+    margin-bottom: 20px; /* Verdoppelung des Margin-Bottoms */
+}
+
+#guess-input {
+    padding: 10px; /* Verdoppelung des Padding-Werts */
+    font-size: 64px; /* Verdoppelung der Schriftgröße */
+    margin-bottom: 40px; /* Verdoppelung des Margin-Bottoms */
+}
+
+#guess-button {
+    padding: 10px 20px; /* Verdoppelung des Padding-Werts */
+    font-size: 64px; /* Verdoppelung der Schriftgröße */
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+#guess-button:hover {
+    background-color: #0056b3;
+}

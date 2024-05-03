@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+.board {
+    background-color: #66ccff;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.board tbody tr {
+    height: 100px;
+}
+
+.board tbody tr td {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+}
+
+.board tbody tr td:hover {
+    background-color: #e6e6e6;
+}
+
+.rot::after, .gelb::after {
+    content: "";
+    width: 90%;
+    height: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Zentrieren des Pseudo-Elements */
+    border-radius: 50%;
+}
+
+.rot::after {
+    background-color: red;
+}
+
+.gelb::after {
+    background-color: yellow;
+}
+
+button {
+    margin-top: 40px;
+    padding: 20px 40px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

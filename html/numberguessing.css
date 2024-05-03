@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-size: 32px
+}
+
+.container {
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 32px; /* Verdoppelung des Padding-Werts */
+    margin: 20px; /* Verdoppelung des Margin-Werts */
+    font-size: 32px; /* Verdoppelung der Schriftgröße */
+}
+
+button {
+    padding: 40px 80px; /* Verdoppelung des Padding-Werts */
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 32px; /* Verdoppelung der Schriftgröße */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
