@@ -24,9 +24,9 @@ document.addEventListener('DOMContentLoaded', function() {
     function getWinner(player, computer) {
         if (player === computer) {
             return 'draw';
-        } else if ((player === 'rock' && computer === 'scissors') ||
-                   (player === 'paper' && computer === 'rock') ||
-                   (player === 'scissors' && computer === 'paper')) {
+        } else if ((player === 'rock' && computer === 'Schere') ||
+                   (player === 'paper' && computer === 'Stein') ||
+                   (player === 'scissors' && computer === 'Papier')) {
             return 'player';
         } else {
             return 'computer';
@@ -49,3 +49,4 @@ document.addEventListener('DOMContentLoaded', function() {
         result.textContent = '';
     }
 });
+//test
