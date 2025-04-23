@@ -14,7 +14,7 @@ def main(session):
 
     try:
         # Pfad zur HTML-Datei
-        html_file_path = "http://198.18.0.1/apps/voice_handler/hangman.html"
+        html_file_path = "http://198.18.0.1/apps/pepper-web-games/hangman.html"
 
         # Anzeigen der HTML-Seite
         tablet_service.showWebview(html_file_path)
